@@ -40,13 +40,29 @@ Would you like to select the third door? Type 'yes' or 'no': yes
 The door you will switch to is: 3
 Congratulations, you win! The prize was behind of the door: 3
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-Let`s check the final result:
+Lets check the final result:
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 The prize is behind the door: 3
 Your initial selection was: 1 
 You decide to change your first choice
 You change from 1 door to 3 door and ...
-You Won the price =]
+You Won the price =)
+```
+
+## Solution 
+The best option as we can see in the statistical results will always occur when we decide to switch ports, because when we do that, we are choosing a port that has a higher probability of having the prize.
+What !??????
+Come on, when there is no open door yet, the probability of the prize being in some door is the same for all doors. But once any empty port is revealed, then the probability that it was for that port is distributed to all other remaining ports except the one you initially chose. In other words, the port that was revealed has a 0% chance of getting the prize as it was revealed, your port chosen initially remains with the same percentage of the beginning of the problem and all other ports have a higher probability of getting the prize. So choosing to switch doors will increase your chances of getting the prize you want.
+
+## Solution [Portuguese]
+A melhor opção como podemos ver nos resultados estatisticos sempre ocorrerá quando decidimos trocar de porta, pois quando fazemos isso, estamos escolhendo uma porta que tem uma probabilidade maior de ter o prêmio.  
+Como assim !??????
+Vamos lá, Quando não existe nenhuma porta aberta ainda a probabilidade do premio está em alguma porta é igual para todas as portas. Porém uma vez que é revelada uma porta vazia qualquer, então a probabilidade que era desta porta é distribuida para todas as outras portas remanecentes menos aquela em que você escolheu inicialmente. Ou seja a porta que foi revelada tem 0% de chance de ter o prêmio como já foi revelado, a sua porta escolhida inicialmente continua com a mesma porcentagem do inicio do problema e todas as outras portas possuiem uma probabilidade maior de obter o prêmio. Por isso, escolher mudar de porta irá aumentar as suas chances de obter o prêmio desejado.
+
+## Statistics
+If we uncomment lines 78, 79, 80, 81 and 82 of the main.py file we can see the following probabilistic results for a simulation with 3, 4, 5, 10 and 50 ports.
+
+```
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 A problem to choose a door between 3 doors
 Initial probability of winning of each door: 33.33%
@@ -72,14 +88,4 @@ A problem to choose a door between 50 doors
 Initial probability of winning of each door: 2.0%
 Probability of win without change: 2.0%
 Probability of win change the initial selection: 2.04%
-
 ```
-## Solution 
-The best option as we can see in the statistical results will always occur when we decide to switch ports, because when we do that, we are choosing a port that has a higher probability of having the prize.
-What !??????
-Come on, when there is no open door yet, the probability of the prize being in some door is the same for all doors. But once any empty port is revealed, then the probability that it was for that port is distributed to all other remaining ports except the one you initially chose. In other words, the port that was revealed has a 0% chance of getting the prize as it was revealed, your port chosen initially remains with the same percentage of the beginning of the problem and all other ports have a higher probability of getting the prize. So choosing to switch doors will increase your chances of getting the prize you want.
-
-## Solution [Portuguese]
-A melhor opção como podemos ver nos resultados estatisticos sempre ocorrerá quando decidimos trocar de porta, pois quando fazemos isso, estamos escolhendo uma porta que tem uma probabilidade maior de ter o prêmio.  
-Como assim !??????
-Vamos lá, Quando não existe nenhuma porta aberta ainda a probabilidade do premio está em alguma porta é igual para todas as portas. Porém uma vez que é revelada uma porta vazia qualquer, então a probabilidade que era desta porta é distribuida para todas as outras portas remanecentes menos aquela em que você escolheu inicialmente. Ou seja a porta que foi revelada tem 0% de chance de ter o prêmio como já foi revelado, a sua porta escolhida inicialmente continua com a mesma porcentagem do inicio do problema e todas as outras portas possuiem uma probabilidade maior de obter o prêmio. Por isso, escolher mudar de porta irá aumentar as suas chances de obter o prêmio desejado.

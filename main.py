@@ -75,8 +75,8 @@ def statistical_formula(num_doors):
 
 if __name__ == '__main__':
     simulation()
-    statistical_formula(3)
-    statistical_formula(4)
-    statistical_formula(5)
-    statistical_formula(10)
-    statistical_formula(50)
+    #statistical_formula(3)
+    #statistical_formula(4)
+    #statistical_formula(5)
+    #statistical_formula(10)
+    #statistical_formula(50)
