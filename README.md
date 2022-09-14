@@ -1,6 +1,6 @@
 # Doors Challenger
 
-![alt text](https://miro.medium.com/max/700/1*2ypNLAI4KNsWmi68SPmQqg.png)
+![alt text](https://github.com/luigus/doors_challenger/blob/main/images/doors_99.png)
 
 
 # Table of Contents
@@ -93,3 +93,8 @@ Probability of win change the initial selection: 2.04%
 
 ## Conclusion
 As we can see, the probability of the other ports will always be greater than that of the port that was chosen first. That is, if we want to have a greater chance of winning the prize, we must always choose to change doors.
+
+
+## Exemple
+
+![alt text](https://github.com/luigus/doors_challenger/blob/main/images/3_doors.jpg)
