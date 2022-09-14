@@ -9,7 +9,7 @@
 3. [Simulation with 3 doors](#Simulation)
 4. [Solution](#Stats)
 5. [Conclusion](#Conclusion)
-
+5. [Exemple](#Exemple)
 
 # <a name="Deps"></a>Language
 This project is using Python3.10
@@ -96,5 +96,11 @@ As we can see, the probability of the other ports will always be greater than th
 
 
 ## Exemple
+*The star is where the prize is.
+*Where the puppet is is the first option
+*The arrow is the door change
+*And the empty box is the door that was shown without the prize.
+
+If the person decides to change doors, he will have a 2 out of 3 chance of hitting the prize and his chances increase to 66%
 
 ![alt text](https://github.com/luigus/doors_challenger/blob/main/images/3_doors.jpg)
