@@ -25,7 +25,7 @@ And go further - what would you change if it were fifty boxes?
 
 
 
-## Output
+## Simulation with 3 doors
 
 
 * Python (3.10)
@@ -74,3 +74,7 @@ Probability of win without change: 2.0%
 Probability of win change the initial selection: 2.04%
 
 ```
+
+** Solution [Portuguese]
+A melhor opção como podemos ver nos resultados estatisticos sempre ocorrerá quando decidimos trocar de porta, pois quando fazemos isso, estamos escolhendo uma porta que tem uma probabilidade maior de ter o prêmio.  Como assim !??????
+Vamos lá, quando todas as portas estão fechadas a probabilidade de todas é igual.
