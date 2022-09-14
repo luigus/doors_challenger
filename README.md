@@ -8,6 +8,7 @@
 2. [Problem](#Problem)
 3. [Simulation with 3 doors](#Simulation)
 4. [Solution](#Stats)
+5. [Conclusion](#Conclusion)
 
 
 # <a name="Deps"></a>Language
@@ -89,3 +90,6 @@ Initial probability of winning of each door: 2.0%
 Probability of win without change: 2.0%
 Probability of win change the initial selection: 2.04%
 ```
+
+## Conclusion
+As we can see, the probability of the other ports will always be greater than that of the port that was chosen first. That is, if we want to have a greater chance of winning the prize, we must always choose to change doors.
